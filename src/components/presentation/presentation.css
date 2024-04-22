@@ -1,0 +1,229 @@
+.home-desc {
+    position: absolute;
+    max-width: 100%;
+    top: 30%;
+    font-size: 5vw;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #FFF;
+    display: flex;
+  }
+
+  .left{
+    width: 70%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo-code{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .referencia{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 250;
+    letter-spacing: -0.04em;
+  }
+
+  .desarr{
+    font-size: 2vw;
+    font-weight: 200;
+    letter-spacing: -0.04em;
+    padding-bottom: 40px;
+  }
+
+  .buttons-rs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-rs {
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  letter-spacing: 1px;
+  gap: 10px;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: blueviolet;
+    border-radius: .5rem;
+    border-bottom: 3px solid blueviolet;
+    border-right: 3px solid blueviolet;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    transition-duration: 0.35s;
+    transition-property: border-top, 
+       border-left, 
+       border-bottom,
+       border-right,
+       box-shadow;
+   }
+   
+   .button-rs:hover {
+    border-top: 3px solid blueviolet;
+    border-left: 3px solid blueviolet;
+    border-bottom: 3px solid rgb(238, 103, 238);
+    border-right: 3px solid rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) 7px 7px, rgba(240, 46, 170, 0.3) 13px 13px, rgba(240, 46, 170, 0.2) 18px 18px;
+   }
+
+.icon-button-rs{
+    max-width: 20px;
+    max-height: 20px;
+    object-fit: cover;
+}
+
+.right {
+    width: 30%;
+}
+
+.right .foto{
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media (max-width: 1310px) {
+    .logo-code{
+        width: 150px;
+        height: 50px;
+      }
+
+    .button-rs {
+        letter-spacing: 1px;
+        gap: 10px;
+        padding: 1rem 1rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1250px) {
+    .logo-code{
+        width: 150px;
+        height: 50px;
+      }
+
+    .button-rs {
+        letter-spacing: 1px;
+        gap: 10px;
+        padding: 1rem 1rem;
+        font-weight: 700;
+    }
+
+    .left{
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+
+    .right .foto{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 950px) {
+    .home-desc{
+        top: 20%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left{
+        padding-right: 5%;
+        width: 100%;
+        order: 2;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .right{
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .desarr{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 2.5vw;
+    }
+
+    .referencia{
+        font-size: 2vw;
+    }
+    
+}
+
+
+@media (max-width: 680px) {
+    .logo-code{
+        width: 100px;
+        height: 40px;
+      }
+
+    .button-rs {
+        padding: 0.7rem 0.7rem;
+        font-weight: 700;
+    }
+    .desarr{
+        font-size: 3vw;
+    }
+    
+}
+
+@media (max-width: 580px) {
+
+    .right .foto{
+        width: 250px;
+    }
+
+    .referencia{
+        font-size: 3vw;
+
+    }
+
+    .desarr{
+        font-size: 3vw;
+    }
+
+    .button-rs {
+        padding: 0.7rem 0.7rem;
+        font-size: 1.7vw;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .buttons-rs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .present{
+
+    }
+
+    .referencia{
+        font-size: 3vw;
+
+    }
+
+    .desarr{
+        font-size: 4vw;
+    }
+
+    .button-rs {
+        padding: 0.7rem 0.7rem;
+        font-size: 2.5vw;
+    }
+    
+}
