@@ -203,10 +203,7 @@
 
 @media (max-width: 500px) {
 
-    .home-desc{
-        top: 10%;
-    }
-
+    
     .buttons-rs {
         display: flex;
         flex-direction: column;
