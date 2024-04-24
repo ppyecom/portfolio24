@@ -1,0 +1,31 @@
+.reveal{
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.reveal-div{
+    text-align: center;
+    width: 50%;
+}
+
+.reveal-text{
+    font-weight: 300;
+    font-size: clamp(4rem, 5vw, 30rem);
+    line-height: clamp(3rem, 10vw, 15rem);
+    color: transparent;
+    filter: drop-shadow(0 0 0.06rem rgb(0, 0, 0));
+}
+
+@media (max-width: 800px){
+    .reveal-text{
+        position: relative;
+        top: 10%;
+        font-weight: 300;
+        font-size: clamp(2rem, 3vw, 15rem);
+        line-height: clamp(1rem, 10vw, 12rem);
+        color: transparent;
+        filter: drop-shadow(0 0 0.06rem rgb(0, 0, 0));
+    }
+}
